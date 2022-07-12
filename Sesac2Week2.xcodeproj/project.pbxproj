@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181648DF287D1EC900022313 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181648DE287D1EC900022313 /* ExampleViewController.swift */; };
+		181648E1287D213300022313 /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181648E0287D213300022313 /* SegmentViewController.swift */; };
 		1849193C287BA3EB00E9A2E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849193B287BA3EB00E9A2E4 /* AppDelegate.swift */; };
 		1849193E287BA3EB00E9A2E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849193D287BA3EB00E9A2E4 /* SceneDelegate.swift */; };
 		18491940287BA3EB00E9A2E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849193F287BA3EB00E9A2E4 /* ViewController.swift */; };
@@ -16,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		181648DE287D1EC900022313 /* ExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
+		181648E0287D213300022313 /* SegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
+		181648E2287D7D3400022313 /* RawString.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RawString.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		18491938287BA3EB00E9A2E4 /* Sesac2Week2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sesac2Week2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1849193B287BA3EB00E9A2E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1849193D287BA3EB00E9A2E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,7 +64,10 @@
 				1849193B287BA3EB00E9A2E4 /* AppDelegate.swift */,
 				1849193D287BA3EB00E9A2E4 /* SceneDelegate.swift */,
 				1849193F287BA3EB00E9A2E4 /* ViewController.swift */,
+				181648E2287D7D3400022313 /* RawString.playground */,
+				181648DE287D1EC900022313 /* ExampleViewController.swift */,
 				18491941287BA3EB00E9A2E4 /* Main.storyboard */,
+				181648E0287D213300022313 /* SegmentViewController.swift */,
 				18491944287BA3ED00E9A2E4 /* Assets.xcassets */,
 				18491946287BA3ED00E9A2E4 /* LaunchScreen.storyboard */,
 				18491949287BA3ED00E9A2E4 /* Info.plist */,
@@ -139,6 +147,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				18491940287BA3EB00E9A2E4 /* ViewController.swift in Sources */,
+				181648DF287D1EC900022313 /* ExampleViewController.swift in Sources */,
+				181648E1287D213300022313 /* SegmentViewController.swift in Sources */,
 				1849193C287BA3EB00E9A2E4 /* AppDelegate.swift in Sources */,
 				1849193E287BA3EB00E9A2E4 /* SceneDelegate.swift in Sources */,
 			);
